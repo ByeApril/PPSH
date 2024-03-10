@@ -1,0 +1,6 @@
+
+L	java:S106%"+Replace this use of System.out by a logger.(ÓÑÔîüÿÿÿÿ8°®Å¹â1
+G	java:S106)"+Replace this use of System.out by a logger.(É»‹Â8±®Å¹â1
+L	java:S106+"+Replace this use of System.out by a logger.(Ø²ÓÂüÿÿÿÿ8²®Å¹â1
+Q
+java:S1128	"/Remove this unused import 'java.sql.SQLOutput'.(ê¤òÃùÿÿÿÿ8ÓºÆ¹â1

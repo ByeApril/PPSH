@@ -6,6 +6,7 @@ import hiber.model.User;
 import hiber.service.UserService;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import javax.persistence.NoResultException;
+import java.sql.SQLOutput;
 
 
 public class MainApp {
@@ -36,11 +37,9 @@ public class MainApp {
          System.out.println(user + " " + user.getCar());
       }
 
-      System.out.println(userService.getUserByCar("McQueen", 3));
-
-      try{
-         userService.getUserByCar("bmw", 3);
-      } catch (NoResultException e){
+      try {
+         System.out.println(userService.getUserByCar("McQueen", 3));
+      } catch (NoResultException e) {
          System.out.println("Пользователь с такой машиной не найден");
       }
 
